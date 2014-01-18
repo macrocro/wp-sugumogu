@@ -39,8 +39,8 @@ define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 
 //echo 'http://'.$_SERVER['HTTP_HOST'].'/wordpress';
-define('WP_HOME', 'http://'.$_SERVER['HTTP_HOST']);
-define('WP_SITEURL', 'http://'.$_SERVER['HTTP_HOST']);
+define('WP_HOME', 'http://'.$_SERVER['HTTP_HOST'].'/blog');
+define('WP_SITEURL', 'http://'.$_SERVER['HTTP_HOST'].'/blog');
 
 /**#@+
  * 認証用ユニークキー
